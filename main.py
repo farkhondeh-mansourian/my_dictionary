@@ -1,20 +1,3 @@
-# This is a sample Python script.
-
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
-
-
-#def print_hi(name):
-    #print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-
-
-#if __name__ == '__main__':
-    #print_hi('PyCharm')
-
-
-
-
-
 word1 = {
   "word": "english",
   "definition": "It's a language",
@@ -50,13 +33,36 @@ word5 = {
   "example": ""
 }
 
+word6 = {
+  "word": "alliance",
+  "definition": "union, conjunction, continuity",
+  "meaning in Farsi": "اتحاد",
+  "example": ""
+}
+
+word7 = {
+  "word": "anticipated",
+  "definition": "",
+  "meaning in Farsi": "پیش بینی شده",
+  "example": ""
+}
+
+word8 = {
+  "word": "executing",
+  "definition": "",
+  "meaning in Farsi": "اجرا کردن",
+  "example": ""
+}
+
 my_dictionary = {
   "english": word1,
   "declare": word2,
   "proximity": word3,
   "obstacle": word4,
-  "quotation mark": word5
+  "quotation mark": word5,
+  "alliance": word6,
+  "anticipated": word7,
+  "executing": word8
 }
 
-print(my_dictionary["proximity"])
-print(my_dictionary["english"]["meaning in Farsi"]);
+print(my_dictionary["anticipated"]["meaning in Farsi"]);
