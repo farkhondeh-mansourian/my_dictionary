@@ -59,4 +59,4 @@ my_dictionary = {
 }
 
 print(my_dictionary["proximity"])
-print(my_dictionary["proximity"]["meaning in Farsi"])
+print(my_dictionary["declare"]["meaning in Farsi"])
